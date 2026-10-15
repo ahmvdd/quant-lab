@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# C++ / CMake
+build/
+cmake-build-*/
+*.o
+*.a
+*.so
+compile_commands.json
+
+# Data (large / licensed files stay local)
+data/*
+!data/README.md
+!data/.gitkeep
+*.csv
+*.parquet
+*.gz
+*.itch*
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
