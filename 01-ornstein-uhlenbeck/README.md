@@ -4,6 +4,8 @@
 
 ## Model
 
+![Ornstein-Uhlenbeck concept](support/ou_concept.svg)
+
 The spread follows an Ornstein-Uhlenbeck process:
 
 $$dX_t = \theta(\mu - X_t)\,dt + \sigma\,dW_t$$
